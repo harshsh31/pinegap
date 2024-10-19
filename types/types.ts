@@ -1,5 +1,3 @@
-import { Customer } from "./types";
-
 export interface Customer {
   id: number;
   name: string;

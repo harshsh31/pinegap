@@ -35,7 +35,8 @@ const CustomerDetails: React.FC<CustomerDetailsProps> = ({ customer }) => {
             key={index}
             src={photo}
             alt={`Photo ${index}`}
-            className="w-32 h-32 object-cover rounded-lg" // Tailwind classes for fixed size and object-fit
+            loading="lazy"
+            className="w-[100%] h-60 object-cover rounded-lg" // Tailwind classes for fixed size and object-fit
           />
         ))}
       </div>

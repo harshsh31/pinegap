@@ -18,7 +18,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="w-2/3 bg-white p-6 overflow-auto">
+      <div className="w-2/3 text-center bg-white p-6 overflow-auto">
         <CustomerDetails customer={selectedCustomer} />
       </div>
     </div>

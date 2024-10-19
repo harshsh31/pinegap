@@ -1,13 +1,5 @@
-import List from "@/components/List";
-import Image from "next/image";
+import Home from "@/components/Home";
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen items-center justify-center p-24">
-      <div className="flex flex-col">
-        <List />
-      </div>
-      <div className="flex"></div>
-    </main>
-  );
+export default function () {
+  return <Home />;
 }
